@@ -72,11 +72,3 @@ Validation + error handling
 Logging quality (useful, not noisy)
 Clear README + runnable instructions
 
-
-API Key
-nuKz4z8VL8rHXP6WdJHW1wAnImxvaytDSiOfC4v7uD0ZMpw7FG0HeUd6ERDw8qAc
-Secret Key
-dWMLgmTlcIcqbsvFTt3Guzl95jS93zIYLMkskWyUxj58GbFd0y5sPOR3wi4FmR7P
-
-$env:BNB_API_KEY = "nuKz4z8VL8rHXP6WdJHW1wAnImxvaytDSiOfC4v7uD0ZMpw7FG0HeUd6ERDw8qAc"
-$env:BNB_API_SECRET = "dWMLgmTlcIcqbsvFTt3Guzl95jS93zIYLMkskWyUxj58GbFd0y5sPOR3wi4FmR7P"
