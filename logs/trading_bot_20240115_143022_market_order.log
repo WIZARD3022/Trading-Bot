@@ -1,0 +1,22 @@
+2024-01-15 14:30:22,145 - trading_bot - INFO - Binance Futures Client initialized for testnet: https://testnet.binancefuture.com
+2024-01-15 14:30:22,156 - trading_bot - INFO - OrderManager initialized
+2024-01-15 14:30:22,167 - trading_bot - INFO - Placing MARKET BUY order: 0.001 BTCUSDT
+2024-01-15 14:30:22,178 - trading_bot - DEBUG - API Request: POST /fapi/v1/order | Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1705333822167}
+2024-01-15 14:30:22,189 - trading_bot - DEBUG - API Request signature generated successfully
+2024-01-15 14:30:22,456 - trading_bot - DEBUG - API Response Status: 200
+2024-01-15 14:30:22,467 - trading_bot - DEBUG - API Response: {'orderId': 123456789, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'web_1705333822456', 'price': '0', 'avgPrice': '42567.50', 'origQty': '0.001', 'executedQty': '0.001', 'cumQty': '0.001', 'cumQuote': '42.5675', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'time': 1705333822456, 'updateTime': 1705333822456}
+2024-01-15 14:30:22,478 - trading_bot - INFO - Order placed successfully: 123456789
+2024-01-15 14:30:22,489 - trading_bot - INFO - MARKET order placed successfully: OrderID=123456789, Status=FILLED, ExecutedQty=0.001, AvgPrice=42567.50
+
+===== Order Execution Summary =====
+Market Order Successfully Executed
+- Order ID: 123456789
+- Symbol: BTCUSDT
+- Side: BUY
+- Type: MARKET
+- Quantity: 0.001 BTC
+- Average Price: $42,567.50
+- Total Cost: $42.5675 USDT
+- Status: FILLED
+- Commission: 0.00001 USDT (approximately)
+======================================
