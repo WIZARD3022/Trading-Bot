@@ -290,6 +290,3 @@ For issues or questions:
 
 ---
 
-**Last Updated:** 2024-01-15  
-**Python Version:** 3.8+  
-**Status:** Ready for testing
